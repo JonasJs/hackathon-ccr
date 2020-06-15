@@ -1,13 +1,11 @@
 import React from 'react';
 import {StyleSheet} from 'react-native';
 
-import {BottomNavigation, Text, FAB} from 'react-native-paper';
+import {BottomNavigation, FAB} from 'react-native-paper';
 
 import Home from './src/screens/home';
 import Expenses from './src/screens/expenses';
 import Shop from './src/screens/shop';
-
-const RecentsRoute = () => <Text>Recents</Text>;
 
 export default class MyComponent extends React.Component {
   state = {
@@ -28,11 +26,6 @@ export default class MyComponent extends React.Component {
         title: 'Gastos',
         icon: 'bank',
       },
-      {
-        key: 'Profile',
-        title: 'Perfil',
-        icon: 'account-circle',
-      },
     ],
   };
 
@@ -42,7 +35,6 @@ export default class MyComponent extends React.Component {
     Home: Home,
     Shop: Shop,
     Expenses: Expenses,
-    Profile: RecentsRoute,
   });
 
   render() {

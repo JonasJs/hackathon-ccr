@@ -3,16 +3,14 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import {Text, Title, Description, Content, Container, Image} from './styles';
 
-export default function CardShop({}) {
+export default function CardShop({textOne = '', textTwo = '', title, image}) {
   return (
     <Container>
-      <Image source={require('../../assets/images/unimed-brasil.png')} />
+      <Image source={image} />
       <Content>
-        <Title>Unimed</Title>
-        <Text>
-          <Description>Planos de saúde a partir</Description>
-          <Description>de R$ xx,00/ mês</Description>
-        </Text>
+        <Title>{title}</Title>
+        <Description>{textOne}</Description>
+        <Description>{textTwo}</Description>
       </Content>
     </Container>
   );
