@@ -10,12 +10,10 @@ a poucos cliques, assumir o controle de sua **vida financeira**, sabendo onde,
 
 ![gif](https://user-images.githubusercontent.com/11879767/84609011-7253c080-ae8b-11ea-934d-55cdc1568240.gif)
 
-</br></br></br></br>
+</br></br>
 
 ![Desktop - 1 (1)](https://user-images.githubusercontent.com/11879767/84608932-0ffac000-ae8b-11ea-82b0-6c05a8744061.png)
-
-
-
+</br></br></br>
 # Bot Whatsapp
 
 ![45fccff8-4afa-4740-9631-3f133fbda474](https://user-images.githubusercontent.com/11879767/84609139-18072f80-ae8c-11ea-81f8-01282181e623.jpeg)
